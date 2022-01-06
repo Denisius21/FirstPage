@@ -1,9 +1,11 @@
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
 }
-.div-class {
+.header-class {
   width: 100%;
-  height: 600px;
+  height: 100vh;
   background-image: url(../Img/beachshowcase.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -12,12 +14,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+  line-height: 1.35;
 }
 h1 {
   display: block;
   text-align: center;
   font-size: 50px;
-  padding: 220px 0 0 0;
+  padding: 210px 0 0 0;
   color: #926239;
   font-weight: bold;
 }
@@ -25,13 +28,13 @@ h1 {
   text-align: center;
   color: #926239;
   font-size: 20px;
-  margin: 10px 0 0 0;
+  
 }
 .button {
   display: inline;
   color: #926239;
   position: relative;
-  top: 40px;
+  top: 30px;
   text-decoration: none;
   border-radius: 10px;
   border: 1px solid #926239;
@@ -41,4 +44,42 @@ h1 {
 .button:hover {
   background-color: #926239;
   color: white;
+}
+.firstArticleText {
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
+  line-height: inherit;
+  font-size: 17px;
+  color: white;
+  background-color: #926239;
+  font-family: inherit;
+}
+.secondText {
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
+  line-height: inherit;
+  font-size: 17px;
+  color: #926239;
+  background-color: #f4f4f4;
+  font-family: inherit;
+}
+section{
+  display: inline-block;
+  width: 33.1%;
+  
+  margin: 0;
+}
+section:nth-child(odd){
+  background-color: #926239;
+  color: white;
+}
+section:nth-child(even){
+  color: #926239;
+  background-color: white;
+}
+.firstBlockText{
+  text-align: center;
+  padding: 20px;
 }
